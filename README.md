@@ -4,6 +4,8 @@
 
 This project is a fork of [pivotal-sprout/sprout-wrap](https://github.com/pivotal-sprout/sprout-wrap/)
 
+Please note: this repo is public so _remember never to put anything sensitive in it_!
+
 Follow the these instructions to bootstrap a blank OSX installation into a functional [Mavenlink](http://www.mavenlink.com) development environment.
 
 1. **Enable FileVault in System Preferences**
