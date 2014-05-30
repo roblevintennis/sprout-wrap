@@ -36,6 +36,7 @@ Use `services+WORKSTATION_NAME@mavenlink.com` as the email if you're setting up 
 
 1. **Install soloist & and other required gems in sprout-wrap repo dir**
 
+        ./pre_setup.sh
         sudo gem install bundler
         sudo bundle
 
@@ -43,9 +44,15 @@ Use `services+WORKSTATION_NAME@mavenlink.com` as the email if you're setting up 
 
         bundle exec soloist
 
+    Soloist will return an error after installing RVM. Just type the command again!
+
     If you prefer you can overload some options, such as Terminal.app color scheme:
 
         TERMINAL_SCHEME=Pro bundle exec soloist
+        
+    If you do not want OSX applications to be installed:
+    
+    	TYPE_INSTALL=light
 
 1. **Bootstrap mavenlink app**
 
@@ -105,5 +112,7 @@ If you're running under rvm or rbenv, you shouldn't preface the following comman
 
 [You may want to modify your Energy Saver preferences (**System Preferences &rarr; Energy Saver &rarr; Computer Sleep &rarr; 3hrs**) because soloist usually takes 2-3 hours to complete.]
 
-    bundle exec soloist
+    TYPE_INSTALL=full bundle exec soloist
+
+If you don't want OSX applications to be installed just omit TYPE_INSTALL=full
 
