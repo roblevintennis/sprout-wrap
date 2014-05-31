@@ -28,6 +28,8 @@ Use `services+WORKSTATION_NAME@mavenlink.com` as the email if you're setting up 
 1. **Install Command Line Tools**
 
         xcode-select --install
+     
+1b. **Manually open XCode and agree to license (otherwise next step won't work!)** 
 
 1. **Clone this project**
 
