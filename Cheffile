@@ -43,6 +43,9 @@ cookbook 'sprout-osx-rubymine',
   :git => 'git://github.com/pivotal-sprout/sprout.git',
   :path => 'sprout-osx-rubymine'
 
+cookbook 'sprout-homebrew',
+  :git => 'git://github.com/pivotal-sprout/sprout-homebrew.git'
+
 cookbook 'ml-workstation',
   :git => 'git@github.com:mavenlink/cookbook-ml-workstation.git',
   :ref => 'imageoptim_homebrew_cask'
