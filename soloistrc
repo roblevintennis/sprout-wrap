@@ -36,7 +36,8 @@ recipes:
   - ml-workstation::imageoptim
   - ml-workstation::phantomjs
   - ml-workstation::icu4c
-  - sprout-osx-apps::java
+  # Install Manually: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+  # - sprout-osx-apps::java
   - ml-workstation::elasticsearch
   - ml-workstation::etc_hosts
   - ml-workstation::imageoptim
@@ -51,7 +52,8 @@ recipes:
   - sprout-osx-apps::dropbox
   - sprout-osx-apps::chrome
   - pivotal_workstation::mouse_locator
-  - sprout-osx-apps::menumeters
+  # Install Manually: http://www.ragingmenace.com/software/menumeters/ 
+  #- sprout-osx-apps::menumeters
   - pivotal_workstation::bettertouchtool
   - sprout-osx-apps::ccmenu
   - pivotal_workstation::github_for_mac
@@ -65,7 +67,6 @@ recipes:
   - sprout-osx-apps::alfred
   - sprout-osx-apps::hipchat
   - sprout-osx-apps::sublime_text
-  - sprout-osx-apps::truecrypt
   - sprout-osx-rubymine::default
         
 env_variable_switches:
@@ -107,7 +108,7 @@ env_variable_switches:
         - ml-workstation::imageoptim
         - ml-workstation::phantomjs
         - ml-workstation::icu4c
-        - sprout-osx-apps::java
+        # - sprout-osx-apps::java
         - ml-workstation::elasticsearch
         - ml-workstation::etc_hosts
         - ml-workstation::imageoptim

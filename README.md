@@ -29,6 +29,14 @@ Use `services+WORKSTATION_NAME@mavenlink.com` as the email if you're setting up 
 
         xcode-select --install
 
+1. **Install Java**
+
+	At time of writing this was at: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+
+1. **Install MenuMeters**
+	
+	At time of writing was at: http://www.ragingmenace.com/software/menumeters/ 
+
 1. **Clone this project**
 
         git clone git@github.com:mavenlink-cookbooks/sprout-wrap.git
